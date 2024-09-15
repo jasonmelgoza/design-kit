@@ -13,7 +13,7 @@ sketch: /media/sketch-files/dk-icons.sketch
   <div class="cf mb4 row list">
     {% for icon in site.data.product_icons %}
     <div class="w-50 w-33-m w-20-ns fl">
-      <a download href="{{ icon.path }}" class="db relative h4 ml3 mt3 br1 overflow-hidden bg-near-white tl f6 thumbnail-zoom">
+      <a download href="{{ site.url }}{{ icon.path | prepend: site.baseurl }}" class="db relative h4 ml3 mt3 br1 overflow-hidden bg-near-white tl f6 thumbnail-zoom">
         <div class="db">
           <div><img class="db w-20 mt4 center" src="{{ site.url }}{{ icon.path | prepend: site.baseurl }}" alt="{{ icon.name }}"></div>
         </div>
@@ -27,7 +27,7 @@ sketch: /media/sketch-files/dk-icons.sketch
 
   <a download href="{{ page.sketch }}" class="db center mw5 mw6-ns br1 hidden ba b--black-10 mv4 dim">
     <div class="pa3">
-      <p class="text-center f6 ma0 tc"><span class="link"><img class="v-mid mr1" src="/media/assets/icon-sketch.svg" alt="Sketch"> <strong>Sketch File Download</strong></span></p>
+      <p class="text-center f6 ma0 tc"><span class="link"><img class="v-mid mr1" src="{{site.url}}{{ "/media/assets/icon-sketch.svg" | prepend: site.baseurl }}" alt="Sketch"> <strong>Sketch File Download</strong></span></p>
     </div>
   </a>
 
