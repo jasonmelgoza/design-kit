@@ -11,9 +11,9 @@ weight: 5
   <h2 class="f5 sans text normal mt0 mb3">Cloud Analytics - Modal Illustrations</h2>
   {% for illustration in site.data.product_illustrations %}
   <div class="mb5">
-    <a download href="{{ illustration.path }}">
+    <a download href="{{ site.url }}{{ illustration.path | prepend: site.baseurl }}">
       <div>
-        <img class="db w-100" src="{{ illustration.path }}" alt="{{ illustration.name }}">
+        <img class="db w-100" src="{{ site.url }}{{ illustration.path | prepend: site.baseurl }}" alt="{{ illustration.name }}">
       </div>
       <div class="w-100">
         <div class="db mt2 f6">{{ illustration.name }}</div>
