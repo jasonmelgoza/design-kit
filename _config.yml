@@ -10,7 +10,7 @@ title: Design Kit
 email: jason@rightscale.com
 description: An internal guide and toolkit for designing RightScale apps.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://jasonmelgoza.github.io/design-kit" # the base hostname & protocol for your site
+url: "https://jasonmelgoza.github.io" # the base hostname & protocol for your site
 excerpt_separator: <!--more-->
 
 # Build settings
@@ -35,4 +35,4 @@ collections:
 exclude: [vendor]
 
 
-repository: rightscale/design-kit
+repository: jasonmelgoza/design-kit
