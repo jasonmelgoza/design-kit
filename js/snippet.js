@@ -7,7 +7,7 @@
 // Add clipboard button trigger
 var snippets = document.querySelectorAll('.markdown-body .highlighter-rouge');
 [].forEach.call(snippets, function(snippet) {
-  snippet.firstChild.insertAdjacentHTML('beforebegin', '<button class="btn snippet-clipboard" data-clipboard-snippet><img src="/media/assets/icon-clipboard.svg"></button>');
+  snippet.firstChild.insertAdjacentHTML('beforebegin', '<button class="btn snippet-clipboard" data-clipboard-snippet><img src="/design-kit/media/assets/icon-clipboard.svg"></button>');
 });
 
 // clipboard trigger
