@@ -8,7 +8,7 @@ npm: https://www.npmjs.com/package/designkit-header
 version: 1.0.0
 updated: 8/7/2017
 css-link: https://cdn.rawgit.com/rightscale-design/designkit-header/v1.0.0/dist/designkit-header.css
-example-1: https://cdn.rawgit.com/rightscale-design/designkit-header/v1.0.0/docs/basic.html
+example-1: https://jasonmelgoza.github.io/designkit-header/basic.html
 install: "npm install designkit-header --save"
 
 dependencies:

@@ -8,7 +8,7 @@ npm: https://www.npmjs.com/package/designkit-sets
 version: 1.0.0
 updated: 7/11/2017
 css-link: https://raw.githubusercontent.com/rightscale-design/designkit-sets/master/dist/designkit-sets.css
-example-1: https://cdn.rawgit.com/rightscale-design/designkit-sets/master/docs/basic.html
+example-1: https://jasonmelgoza.github.io/designkit-sets/basic.html
 install: "npm install designkit-sets --save"
 dependencies:
   - name: Colors

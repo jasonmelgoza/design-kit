@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="author" content="">
+
+  <!-- facebook open graph tags -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="http://design.rightscale.com/" />
+  <meta property="og:title" content=" Dropdowns - Design Kit " />
+  <meta property="og:description" content="A Sass module for dropdown menus in RightScale apps" />
+  <meta property="og:image" content="http://localhost:4000/media/assets/dk-logo-og.png" />
+
+  
+  <meta name="twitter:label1" value="View module source" />
+  <meta name="twitter:data1" value="https://github.com/rightscale-design/designkit-dropdown" />
+  
+
+  <!-- twitter card tags additive with the og: tags -->
+  <meta name="twitter:card" content="summary_large_image">
+
+  <title> Dropdowns - Design Kit </title>
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="http://localhost:4000/css/main.css">
+
+</head>
+
+<body  class="w-100 modules">
+
+  <header class="fixed top-0 w-100 z-5 site-header ">
+  <div class="ph3 ph4-ns wrapper">
+    <a class="site-title" href="http://localhost:4000">
+      <img src="http://localhost:4000/media/assets/rs-dk-logo.svg" alt="Design Kit">
+    </a>
+    <nav class="site-nav dn db-ns">
+      <div>
+        
+          
+        
+          
+          <a class="page-link page-link-bits f5" href="http://localhost:4000/bits/">Bits</a>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+          <a class="page-link page-link-modules f5" href="http://localhost:4000/modules/">Modules</a>
+          
+        
+          
+          <a class="page-link page-link-patterns f5" href="http://localhost:4000/patterns/">Patterns</a>
+          
+        
+          
+        
+      </div>
+    </nav>
+  </div>
+</header>
+
+
+  <div class="page-content pv5">
+    <div class="ph3 ph4-ns wrapper">
+      <div class="cf">
+        <div id="pinned" class="fl w-20">
+  <ul class="mv1 f6">
+    <li class="pv1">
+      <a class="db" href="http://localhost:4000/modules/">Intro</a>
+    </li>
+    
+    
+      <li class="pv1">
+        <a class="db" href="http://localhost:4000/modules/global/">Global</a>
+      </li>
+    
+      <li class="pv1">
+        <a class="db" href="http://localhost:4000/modules/colors/">Colors</a>
+      </li>
+    
+      <li class="pv1">
+        <a class="db" href="http://localhost:4000/modules/typography/">Typography</a>
+      </li>
+    
+      <li class="pv1">
+        <a class="db" href="http://localhost:4000/modules/links/">Links</a>
+      </li>
+    
+      <li class="pv1">
+        <a class="db" href="http://localhost:4000/modules/card/">Card</a>
+      </li>
+    
+      <li class="pv1">
+        <a class="db" href="http://localhost:4000/modules/buttons/">Buttons</a>
+      </li>
+    
+      <li class="pv1">
+        <a class="db" href="http://localhost:4000/modules/header/">Header</a>
+      </li>
+    
+      <li class="pv1">
+        <a class="db" href="http://localhost:4000/modules/forms/">Forms</a>
+      </li>
+    
+      <li class="pv1">
+        <a class="db" href="http://localhost:4000/modules/dropdowns/">Dropdowns</a>
+      </li>
+    
+      <li class="pv1">
+        <a class="db" href="http://localhost:4000/modules/highlight/">Highlight</a>
+      </li>
+    
+      <li class="pv1">
+        <a class="db" href="http://localhost:4000/modules/states/">State</a>
+      </li>
+    
+      <li class="pv1">
+        <a class="db" href="http://localhost:4000/modules/badge/">Badge</a>
+      </li>
+    
+      <li class="pv1">
+        <a class="db" href="http://localhost:4000/modules/sets/">Sets</a>
+      </li>
+    
+      <li class="pv1">
+        <a class="db" href="http://localhost:4000/modules/spinners/">Spinners</a>
+      </li>
+    
+      <li class="pv1">
+        <a class="db" href="http://localhost:4000/modules/grid/">Grid</a>
+      </li>
+    
+      <li class="pv1">
+        <a class="db" href="http://localhost:4000/modules/animation/">Animation</a>
+      </li>
+    
+      <li class="pv1">
+        <a class="db" href="http://localhost:4000/modules/utilities/">Utilities</a>
+      </li>
+    
+      <li class="pv1">
+        <a class="db" href="http://localhost:4000/modules/tooltips/">Tooltips</a>
+      </li>
+    
+      <li class="pv1">
+        <a class="db" href="http://localhost:4000/modules/layout/">Layout</a>
+      </li>
+    
+  </ul>
+</div>
+
+<article class="fl w-100 w-80-ns animate-fade">
+  <div>
+    <header>
+      <h1 class="page-heading">Dropdowns</h1>
+      <p class="f5 mt0 mb4 measure">A Sass module for dropdown menus in RightScale apps</p>
+    </header>
+    <div class="mt3 mb4">
+      <div class="w-100 mb4 bb bw2 b--black-05">
+        <section class="flex flex-wrap w-80 mt0 pb3 meta f6">
+          <div class="flex flex-row w-50 pv1">
+            <div class="flex w-25">Source</div>
+            <div class="flex flex-auto">
+              <a class="dim link" href="https://github.com/rightscale-design/designkit-dropdown" target="_blank">Github</a>
+            </div>
+          </div>
+          <div class="flex flex-row w-50 pv1">
+            <div class="flex w-25">NPM</div>
+            <div class="flex flex-auto">
+              <a class="dim link" href="https://www.npmjs.com/package/designkit-dropdown" target="_blank">designkit-dropdown</a>
+            </div>
+          </div>
+          <div class="flex flex-row w-50 pv1">
+            <div class="flex w-25">Version</div>
+            <div class="flex flex-auto">
+              <a class="dim link" href="https://github.com/rightscale-design/designkit-dropdown/releases" target="_blank">1.1.5</a>
+            </div>
+          </div>
+          <div class="flex flex-row w-50 pv1">
+            <div class="flex w-25">Updated</div>
+            <div class="flex flex-auto">11/27/2017</div>
+          </div>
+        </section>
+      </div>
+      <div class="markdown-body">
+        <h2 id="install">Install</h2>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>npm <span class="nb">install </span>designkit-dropdown <span class="nt">--save</span>
+</code></pre></div></div>
+
+<h2 id="dependencies">Dependencies</h2>
+
+<ul>
+  
+    <li><a href="/modules/colors/">Colors</a></li>
+  
+</ul>
+
+<h2 id="examples">Examples</h2>
+
+<h3 id="basic-usage">Basic Usage</h3>
+
+<p><strong>HTML</strong></p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"dropdown open"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"btn btn-default dropdown-toggle"</span> <span class="na">type=</span><span class="s">"button"</span><span class="nt">&gt;</span>
+    Dropdown Button
+  <span class="nt">&lt;/button&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"dropdown-menu"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Action<span class="nt">&lt;/a&gt;</span>
+      <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Another action<span class="nt">&lt;/a&gt;</span>
+      <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Something else here<span class="nt">&lt;/a&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div>
+
+<p><strong>Example</strong></p>
+
+<iframe style="height: 194px;" src="https://jasonmelgoza.github.io/designkit-dropdown/basic.html"></iframe>
+
+<h3 id="optional-drop-up">Optional Drop up</h3>
+
+<p><strong>HTML</strong></p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"dropup open"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"btn btn-default dropdown-toggle"</span> <span class="na">type=</span><span class="s">"button"</span><span class="nt">&gt;</span>
+    Dropup Button
+  <span class="nt">&lt;/button&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"dropdown-menu"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Action<span class="nt">&lt;/a&gt;</span>
+      <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Another action<span class="nt">&lt;/a&gt;</span>
+      <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Something else here<span class="nt">&lt;/a&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div>
+
+<p><strong>Example</strong></p>
+
+<iframe style="height: 190px;" src="https://jasonmelgoza.github.io/designkit-dropdown/drop-up.html"></iframe>
+
+<h3 id="optional-dividers">Optional Dividers</h3>
+
+<p><strong>HTML</strong></p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"dropdown open"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"btn btn-default dropdown-toggle"</span> <span class="na">type=</span><span class="s">"button"</span><span class="nt">&gt;</span>
+    Dropdown Button
+  <span class="nt">&lt;/button&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"dropdown-menu"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Action<span class="nt">&lt;/a&gt;</span>
+      <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Another action<span class="nt">&lt;/a&gt;</span>
+      <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Something else here<span class="nt">&lt;/a&gt;</span>
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"dropdown-divider"</span><span class="nt">&gt;&lt;/div&gt;</span>
+      <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Settings<span class="nt">&lt;/a&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div>
+
+<p><strong>Example</strong></p>
+
+<iframe style="height: 250px;" src="https://jasonmelgoza.github.io/designkit-dropdown/dividers.html"></iframe>
+
+<h3 id="optional-headers">Optional Headers</h3>
+
+<p><strong>HTML</strong></p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"dropdown open"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"btn btn-default dropdown-toggle"</span> <span class="na">type=</span><span class="s">"button"</span><span class="nt">&gt;</span>
+    Dropdown Button
+  <span class="nt">&lt;/button&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"dropdown-menu"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Action<span class="nt">&lt;/a&gt;</span>
+      <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Another action<span class="nt">&lt;/a&gt;</span>
+      <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Something else here<span class="nt">&lt;/a&gt;</span>
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"dropdown-divider"</span><span class="nt">&gt;&lt;/div&gt;</span>
+      <span class="nt">&lt;h6</span> <span class="na">class=</span><span class="s">"dropdown-header"</span><span class="nt">&gt;</span>Settings<span class="nt">&lt;/h6&gt;</span>
+      <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Action<span class="nt">&lt;/a&gt;</span>
+      <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Another action<span class="nt">&lt;/a&gt;</span>
+      <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Something else here<span class="nt">&lt;/a&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div>
+
+<p><strong>Example</strong></p>
+
+<iframe style="height: 310px;" src="https://jasonmelgoza.github.io/designkit-dropdown/header.html"></iframe>
+
+<h3 id="optional-menu-title">Optional Menu Title</h3>
+
+<p><strong>HTML</strong></p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"dropdown open"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"btn btn-default dropdown-toggle"</span> <span class="na">type=</span><span class="s">"button"</span><span class="nt">&gt;</span>
+    Dropdown Button
+  <span class="nt">&lt;/button&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"dropdown-menu"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"dropdown-title"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;h6&gt;</span>Optional Menu Title<span class="nt">&lt;/h6&gt;</span>
+      <span class="nt">&lt;/div&gt;</span>
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"dropdown-body"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Action<span class="nt">&lt;/a&gt;</span>
+        <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Another action<span class="nt">&lt;/a&gt;</span>
+        <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Something else here<span class="nt">&lt;/a&gt;</span>
+      <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div>
+
+<p><strong>Example</strong></p>
+
+<iframe style="height: 242px;" src="https://jasonmelgoza.github.io/designkit-dropdown/title.html"></iframe>
+
+<h3 id="optional-scroll">Optional Scroll</h3>
+
+<p><strong>HTML</strong></p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"dropdown open"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"btn btn-default dropdown-toggle"</span> <span class="na">type=</span><span class="s">"button"</span><span class="nt">&gt;</span>
+    Dropdown Button
+  <span class="nt">&lt;/button&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"dropdown-menu dropdown-menu-scrollable"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"dropdown-body"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;h6</span> <span class="na">class=</span><span class="s">"dropdown-header"</span><span class="nt">&gt;</span>Actions<span class="nt">&lt;/h6&gt;</span>
+      <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Action<span class="nt">&lt;/a&gt;</span>
+      <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Another action<span class="nt">&lt;/a&gt;</span>
+      <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Something else here<span class="nt">&lt;/a&gt;</span>
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"dropdown-divider"</span><span class="nt">&gt;&lt;/div&gt;</span>
+      <span class="nt">&lt;h6</span> <span class="na">class=</span><span class="s">"dropdown-header"</span><span class="nt">&gt;</span>Years<span class="nt">&lt;/h6&gt;</span>
+      <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span><span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>1998<span class="nt">&lt;/a&gt;</span>
+      <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span><span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>1997<span class="nt">&lt;/a&gt;</span>
+      <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span><span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>1996<span class="nt">&lt;/a&gt;</span>
+      <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span><span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>1997<span class="nt">&lt;/a&gt;</span>
+      <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span><span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>1994<span class="nt">&lt;/a&gt;</span>
+      <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span><span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>1998<span class="nt">&lt;/a&gt;</span>
+      <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span><span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>1997<span class="nt">&lt;/a&gt;</span>
+      <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span><span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>1996<span class="nt">&lt;/a&gt;</span>
+      <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span><span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>1997<span class="nt">&lt;/a&gt;</span>
+      <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span><span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>1994<span class="nt">&lt;/a&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div>
+
+<p><strong>Example</strong></p>
+
+<iframe style="height: 300px;" src="https://jasonmelgoza.github.io/designkit-dropdown/scroll.html"></iframe>
+
+<h3 id="select-menu">Select Menu</h3>
+
+<p><strong>HTML</strong></p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"dropdown open"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"btn btn-default dropdown-toggle"</span> <span class="na">type=</span><span class="s">"button"</span><span class="nt">&gt;</span>
+    Dropdown Button
+  <span class="nt">&lt;/button&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"dropdown-menu dropdown-menu-select"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Action<span class="nt">&lt;/a&gt;</span>
+    <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Another action<span class="nt">&lt;/a&gt;</span>
+    <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Something else here<span class="nt">&lt;/a&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div>
+
+<p><strong>Example</strong></p>
+
+<iframe style="height: 220px;" src="https://jasonmelgoza.github.io/designkit-dropdown/select.html"></iframe>
+
+<h3 id="filter-menu">Filter Menu</h3>
+
+<p><strong>HTML</strong></p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"dropdown open"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"btn btn-default dropdown-toggle"</span> <span class="na">type=</span><span class="s">"button"</span><span class="nt">&gt;</span>
+    Dropdown Button
+  <span class="nt">&lt;/button&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"dropdown-menu dropdown-menu-filter"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"dropdown-filter"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;input</span> <span class="na">id=</span><span class="s">"my_input"</span> <span class="na">class=</span><span class="s">"form-control"</span> <span class="na">type=</span><span class="s">"text"</span> <span class="na">name=</span><span class="s">"name"</span> <span class="na">value=</span><span class="s">""</span> <span class="na">placeholder=</span><span class="s">"Filter"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"dropdown-body"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span><span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>1998<span class="nt">&lt;/a&gt;</span>
+      <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span><span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>1997<span class="nt">&lt;/a&gt;</span>
+      <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span><span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>1996<span class="nt">&lt;/a&gt;</span>
+      <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span><span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>1997<span class="nt">&lt;/a&gt;</span>
+      <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span><span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>1994<span class="nt">&lt;/a&gt;</span>
+      <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span><span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>1998<span class="nt">&lt;/a&gt;</span>
+      <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span><span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>1997<span class="nt">&lt;/a&gt;</span>
+      <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span><span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>1996<span class="nt">&lt;/a&gt;</span>
+      <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span><span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>1997<span class="nt">&lt;/a&gt;</span>
+      <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span><span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>1994<span class="nt">&lt;/a&gt;</span>
+      <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span><span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>1993<span class="nt">&lt;/a&gt;</span>
+      <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span><span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>1992<span class="nt">&lt;/a&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div>
+
+<p><strong>Example</strong></p>
+
+<iframe style="height: 460px;" src="https://jasonmelgoza.github.io/designkit-dropdown/filter.html"></iframe>
+
+<h3 id="multiple-menu-options">Multiple Menu Options</h3>
+
+<p><strong>HTML</strong></p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"dropdown open"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"btn btn-default dropdown-toggle"</span> <span class="na">type=</span><span class="s">"button"</span><span class="nt">&gt;</span>
+    Dropdown Button
+  <span class="nt">&lt;/button&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"dropdown-menu dropdown-menu-select dropdown-menu-filter dropdown-menu-scrollable dropdown-menu-left"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"dropdown-title"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;h6&gt;</span>Optional Menu Title<span class="nt">&lt;/h6&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"dropdown-filter"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;input</span> <span class="na">id=</span><span class="s">"my_input"</span> <span class="na">class=</span><span class="s">"form-control"</span> <span class="na">type=</span><span class="s">"text"</span> <span class="na">name=</span><span class="s">"name"</span> <span class="na">value=</span><span class="s">""</span> <span class="na">placeholder=</span><span class="s">"Filter"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"dropdown-body"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;h6</span> <span class="na">class=</span><span class="s">"dropdown-header"</span><span class="nt">&gt;</span>Actions<span class="nt">&lt;/h6&gt;</span>
+      <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Action<span class="nt">&lt;/a&gt;</span>
+      <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Another action<span class="nt">&lt;/a&gt;</span>
+      <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Something else here<span class="nt">&lt;/a&gt;</span>
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"dropdown-divider"</span><span class="nt">&gt;&lt;/div&gt;</span>
+      <span class="nt">&lt;h6</span> <span class="na">class=</span><span class="s">"dropdown-header"</span><span class="nt">&gt;</span>Years<span class="nt">&lt;/h6&gt;</span>
+      <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span><span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>1998<span class="nt">&lt;/a&gt;</span>
+      <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span><span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>1997<span class="nt">&lt;/a&gt;</span>
+      <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span><span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>1996<span class="nt">&lt;/a&gt;</span>
+      <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span><span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>1997<span class="nt">&lt;/a&gt;</span>
+      <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span><span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>1994<span class="nt">&lt;/a&gt;</span>
+      <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span><span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>1998<span class="nt">&lt;/a&gt;</span>
+      <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span><span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>1997<span class="nt">&lt;/a&gt;</span>
+      <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span><span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>1996<span class="nt">&lt;/a&gt;</span>
+      <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span><span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>1997<span class="nt">&lt;/a&gt;</span>
+      <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"dropdown-item"</span><span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>1994<span class="nt">&lt;/a&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div>
+
+<p><strong>Example</strong></p>
+
+<iframe style=" height: 400px;" src="https://jasonmelgoza.github.io/designkit-dropdown/multi.html"></iframe>
+
+<h2 id="css">CSS</h2>
+
+<div class="snippet">
+  <pre id="css_contents" class="highlighter-rouge snippet-css"><code class="css"></code></pre>
+</div>
+
+      </div>
+    </div>
+  </div>
+</article>
+
+      </div>
+    </div>
+  </div>
+
+  <footer class="site-footer mt5 mb4">
+  <div class="ph3 ph4-ns wrapper">
+    <p><strong>v2.0.2</strong> / <a class="dim link" href="https://github.com/rightscale/design-kit">github.com/rightscale/design-kit</a></p>
+    <p>&copy 2024 RightScale, Inc.</p>
+  </div>
+</footer>
+
+
+  <!-- Scripts -->
+  <script src="http://localhost:4000/js/vendor/jquery-2.2.3.min.js"></script>
+  <script src="http://localhost:4000/js/vendor/anchor.min.js"></script>
+  <script src="http://localhost:4000/js/vendor/scroll.min.js"></script>
+  <script src="http://localhost:4000/js/vendor/sticky-kit.min.js"></script>
+  <script src="http://localhost:4000/js/vendor/clipboard.min.js"></script>
+  <script src="http://localhost:4000/js/vendor/highlight.pack.js"></script>
+
+  <!-- Local scripts -->
+  <script src="http://localhost:4000/js/anchor.js"></script>
+  <script src="http://localhost:4000/js/sticky-kit.js"></script>
+  <script src="http://localhost:4000/js/snippet.js"></script>
+  <script type="text/javascript">
+    var csslink = "https://raw.githubusercontent.com/rightscale-design/designkit-dropdown/v1.1.5/dist/designkit-dropdown.css";
+  </script>
+  <script src="http://localhost:4000/js/modules.js"></script>
+
+</body>
+
+</html>

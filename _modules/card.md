@@ -8,8 +8,8 @@ npm: https://www.npmjs.com/package/designkit-card
 version: 1.1.1
 updated: 7/6/2017
 css-link: https://raw.githubusercontent.com/rightscale-design/designkit-card/master/dist/designkit-card.css
-example-1: https://cdn.rawgit.com/rightscale-design/designkit-card/master/docs/basic.html
-example-2: https://cdn.rawgit.com/rightscale-design/designkit-card/master/docs/header.html
+example-1: https://jasonmelgoza.github.io/designkit-card/basic.html
+example-2: https://jasonmelgoza.github.io/designkit-card/header.html
 install: "npm install designkit-card --save"
 dependencies:
   - name: Colors

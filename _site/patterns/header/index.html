@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="author" content="">
+
+  <title> Header - Design Kit </title>
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/annotations.css">
+
+  <!-- Scripts -->
+  <script src="/js/vendor/jquery-2.2.3.min.js"></script>
+  <script src="/js/patterns.js"></script>
+</head>
+
+<body  class="w-100 patterns">
+
+  <header class="fixed top-0 w-100 z-5 site-header ">
+  <div class="ph3 ph4-ns wrapper">
+    <a class="site-title" href="http://localhost:4000">
+      <img src="http://localhost:4000/media/assets/rs-dk-logo.svg" alt="Design Kit">
+    </a>
+    <nav class="site-nav dn db-ns">
+      <div>
+        
+          
+        
+          
+          <a class="page-link page-link-bits f5" href="http://localhost:4000/bits/">Bits</a>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+          <a class="page-link page-link-modules f5" href="http://localhost:4000/modules/">Modules</a>
+          
+        
+          
+          <a class="page-link page-link-patterns f5" href="http://localhost:4000/patterns/">Patterns</a>
+          
+        
+          
+        
+      </div>
+    </nav>
+  </div>
+</header>
+
+
+  <div class="page-content pv5" data-proofer-ignore>
+    <div class="ph3 ph4-ns wrapper">
+      <div class="cf">
+        <div class="fl w-20">
+  <ul class="mv1 f6">
+    <li class="pv1">
+      <a class="db" href="http://localhost:4000/patterns/">Intro</a>
+    </li>
+    
+    
+      <li class="pv1">
+        <a class="db" href="http://localhost:4000/patterns/header/">Header</a>
+      </li>
+    
+      <li class="pv1">
+        <a class="db" href="http://localhost:4000/patterns/product-selector/">Product Selector</a>
+      </li>
+    
+      <li class="pv1">
+        <a class="db" href="http://localhost:4000/patterns/sidebar/">Sidebar Navigation</a>
+      </li>
+    
+      <li class="pv1">
+        <a class="db" href="http://localhost:4000/patterns/table/">Table</a>
+      </li>
+    
+  </ul>
+</div>
+
+<div class="fl w-80">
+  <div>
+    <h1 class="page-heading">Header</h1>
+    
+    <p class="f5 mt0 mb4r">The horizontal page header appears at the top of every page.</p>
+    
+
+    
+
+    
+
+    
+      <div class="bt b--black-10 pt3 mt3">
+        <div class="example-header">
+          <h2>Examples</h2>
+          <button class="btn btn-default" id="toggle_annotations" onclick="toggleAnnotations();">Toggle Annotations</button>
+        </div>
+        <div class="example-wrapper">
+          
+            <div class="example">
+              <p><strong>Governance Header</strong></p>
+              <p>Header bar for Self-Service. Contains the sidebar toggle button, RightScale logo, product selector dropdown, account selector, and user menu.</p>
+              <div class="cd-product cd-container">
+              	<div class="cd-product-wrapper">
+              		<img src="../../media/examples/governance_header.png" alt="image01" />
+                  <ul>
+                  
+              			<li class="cd-single-point" style="top: 0px; left: -25px">
+              				<a class="cd-img-replace" href="#0">More</a>
+              				<div class="cd-more-info cd-top"> <!-- 4 classes available: cd-top, cd-bottom, cd-left, cd-right  -->
+              					<h3>Collapse/Expand Toggle</h3>
+              					<p>Toggles the sidebar between an expanded and a collapsed state.</p>
+              					<a href="#0" class="cd-close-info cd-img-replace">Close</a>
+              				</div>
+              			</li>
+                  
+              			<li class="cd-single-point" style="top: -60%; left: 12%">
+              				<a class="cd-img-replace" href="#0">More</a>
+              				<div class="cd-more-info cd-top"> <!-- 4 classes available: cd-top, cd-bottom, cd-left, cd-right  -->
+              					<h3>RightScale Logo</h3>
+              					<p>Clicking takes the user to the initial page for the product.</p>
+              					<a href="#0" class="cd-close-info cd-img-replace">Close</a>
+              				</div>
+              			</li>
+                  
+              			<li class="cd-single-point" style="top: 80%; left: 28%">
+              				<a class="cd-img-replace" href="#0">More</a>
+              				<div class="cd-more-info cd-top"> <!-- 4 classes available: cd-top, cd-bottom, cd-left, cd-right  -->
+              					<h3>Product Selector</h3>
+              					<p>Show the product selector menu, containing information and links to the other RightScale products.</p>
+              					<a href="#0" class="cd-close-info cd-img-replace">Close</a>
+              				</div>
+              			</li>
+                  
+              			<li class="cd-single-point" style="top: -60%; left: 80%">
+              				<a class="cd-img-replace" href="#0">More</a>
+              				<div class="cd-more-info cd-top"> <!-- 4 classes available: cd-top, cd-bottom, cd-left, cd-right  -->
+              					<h3>Organization Selector</h3>
+              					<p>Show a list of organizations. Clicking will reload the current page scoped to the new organization.</p>
+              					<a href="#0" class="cd-close-info cd-img-replace">Close</a>
+              				</div>
+              			</li>
+                  
+              			<li class="cd-single-point" style="top: 0px; left: 99%">
+              				<a class="cd-img-replace" href="#0">More</a>
+              				<div class="cd-more-info cd-top"> <!-- 4 classes available: cd-top, cd-bottom, cd-left, cd-right  -->
+              					<h3>User Menu</h3>
+              					<p>Displays the user's first and last name. Clicking shows a menu with options for support, documentation, feedback, the intro modal, and logging out.</p>
+              					<a href="#0" class="cd-close-info cd-img-replace">Close</a>
+              				</div>
+              			</li>
+                  
+              		</ul>
+                </div>
+              </div>
+            </div> <!-- example -->
+          
+            <div class="example">
+              <p><strong>Self-Service Header</strong></p>
+              <p>Header bar for Self-Service. Contains the sidebar toggle button, RightScale logo, product selector dropdown, account selector, and user menu.</p>
+              <div class="cd-product cd-container">
+              	<div class="cd-product-wrapper">
+              		<img src="../../media/examples/self-service_header.png" alt="image01" />
+                  <ul>
+                  
+              			<li class="cd-single-point" style="top: 0px; left: -25px">
+              				<a class="cd-img-replace" href="#0">More</a>
+              				<div class="cd-more-info cd-top"> <!-- 4 classes available: cd-top, cd-bottom, cd-left, cd-right  -->
+              					<h3>RightScale Logo</h3>
+              					<p>Clicking takes the user to the initial page for the product.</p>
+              					<a href="#0" class="cd-close-info cd-img-replace">Close</a>
+              				</div>
+              			</li>
+                  
+              			<li class="cd-single-point" style="top: 80%; left: 23%">
+              				<a class="cd-img-replace" href="#0">More</a>
+              				<div class="cd-more-info cd-top"> <!-- 4 classes available: cd-top, cd-bottom, cd-left, cd-right  -->
+              					<h3>Product Selector</h3>
+              					<p>Show the product selector menu, containing information and links to the other RightScale products.</p>
+              					<a href="#0" class="cd-close-info cd-img-replace">Close</a>
+              				</div>
+              			</li>
+                  
+              			<li class="cd-single-point" style="top: -60%; left: 80%">
+              				<a class="cd-img-replace" href="#0">More</a>
+              				<div class="cd-more-info cd-top"> <!-- 4 classes available: cd-top, cd-bottom, cd-left, cd-right  -->
+              					<h3>Organization Selector</h3>
+              					<p>Show a list of organizations. Clicking will reload the current page scoped to the new organization.</p>
+              					<a href="#0" class="cd-close-info cd-img-replace">Close</a>
+              				</div>
+              			</li>
+                  
+              			<li class="cd-single-point" style="top: 0px; left: 99%">
+              				<a class="cd-img-replace" href="#0">More</a>
+              				<div class="cd-more-info cd-top"> <!-- 4 classes available: cd-top, cd-bottom, cd-left, cd-right  -->
+              					<h3>User Menu</h3>
+              					<p>Displays the user's first and last name. Clicking shows a menu with options for support, documentation, feedback, the intro modal, and logging out.</p>
+              					<a href="#0" class="cd-close-info cd-img-replace">Close</a>
+              				</div>
+              			</li>
+                  
+              		</ul>
+                </div>
+              </div>
+            </div> <!-- example -->
+          
+        </div> <!-- example-wrapper -->
+        
+
+      </div>
+     <!-- if page.examples -->
+  </div>
+</div>
+
+      </div>
+    </div>
+  </div>
+
+  <footer class="site-footer mt5 mb4">
+  <div class="ph3 ph4-ns wrapper">
+    <p><strong>v2.0.2</strong> / <a class="dim link" href="https://github.com/rightscale/design-kit">github.com/rightscale/design-kit</a></p>
+    <p>&copy 2024 RightScale, Inc.</p>
+  </div>
+</footer>
+
+
+  <!-- Scripts -->
+  <script src="http://localhost:4000/js/vendor/anchor.min.js"></script>
+  <script src="http://localhost:4000/js/vendor/scroll.min.js"></script>
+  <script src="http://localhost:4000/js/vendor/sticky-kit.min.js"></script>
+  <script src="http://localhost:4000/js/vendor/list.min.js"></script>
+
+  <!-- Local scripts -->
+  <script src="http://localhost:4000/js/anchor.js"></script>
+  <script src="http://localhost:4000/js/sticky-kit.js"></script>
+  <script src="http://localhost:4000/js/list.js"></script>
+
+</body>
+
+</html>

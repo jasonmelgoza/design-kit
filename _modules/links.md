@@ -8,7 +8,7 @@ npm: https://www.npmjs.com/package/designkit-links
 version: 1.0.0
 updated: 7/18/2017
 css-link: https://raw.githubusercontent.com/rightscale-design/designkit-links/master/dist/designkit-links.css
-example-1: https://cdn.rawgit.com/rightscale-design/designkit-links/master/docs/basic.html
+example-1: https://jasonmelgoza.github.io/designkit-links/basic.html
 install: "npm install designkit-links --save"
 dependencies:
   - name: Colors

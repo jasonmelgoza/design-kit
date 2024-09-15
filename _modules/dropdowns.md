@@ -8,15 +8,15 @@ npm: https://www.npmjs.com/package/designkit-dropdown
 version: 1.1.5
 updated: 11/27/2017
 css-link: https://raw.githubusercontent.com/rightscale-design/designkit-dropdown/v1.1.5/dist/designkit-dropdown.css
-example-1: https://cdn.rawgit.com/rightscale-design/designkit-dropdown/v1.1.5/docs/basic.html
-example-2: https://cdn.rawgit.com/rightscale-design/designkit-dropdown/v1.1.5/docs/drop-up.html
-example-3: https://cdn.rawgit.com/rightscale-design/designkit-dropdown/v1.1.5/docs/dividers.html
-example-4: https://cdn.rawgit.com/rightscale-design/designkit-dropdown/v1.1.5/docs/header.html
-example-5: https://cdn.rawgit.com/rightscale-design/designkit-dropdown/v1.1.5/docs/title.html
-example-6: https://cdn.rawgit.com/rightscale-design/designkit-dropdown/v1.1.5/docs/scroll.html
-example-7: https://cdn.rawgit.com/rightscale-design/designkit-dropdown/v1.1.5/docs/select.html
-example-8: https://cdn.rawgit.com/rightscale-design/designkit-dropdown/v1.1.5/docs/filter.html
-example-9: https://cdn.rawgit.com/rightscale-design/designkit-dropdown/v1.1.5/docs/multi.html
+example-1: https://jasonmelgoza.github.io/designkit-dropdown/basic.html
+example-2: https://jasonmelgoza.github.io/designkit-dropdown/drop-up.html
+example-3: https://jasonmelgoza.github.io/designkit-dropdown/dividers.html
+example-4: https://jasonmelgoza.github.io/designkit-dropdown/header.html
+example-5: https://jasonmelgoza.github.io/designkit-dropdown/title.html
+example-6: https://jasonmelgoza.github.io/designkit-dropdown/scroll.html
+example-7: https://jasonmelgoza.github.io/designkit-dropdown/select.html
+example-8: https://jasonmelgoza.github.io/designkit-dropdown/filter.html
+example-9: https://jasonmelgoza.github.io/designkit-dropdown/multi.html
 install: "npm install designkit-dropdown --save"
 dependencies:
   - name: Colors

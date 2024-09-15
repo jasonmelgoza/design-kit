@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="author" content="">
+
+  <!-- facebook open graph tags -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="http://design.rightscale.com/" />
+  <meta property="og:title" content=" State - Design Kit " />
+  <meta property="og:description" content="Sass module for css states and labels" />
+  <meta property="og:image" content="http://localhost:4000/media/assets/dk-logo-og.png" />
+
+  
+  <meta name="twitter:label1" value="View module source" />
+  <meta name="twitter:data1" value="https://github.com/rightscale-design/designkit-state" />
+  
+
+  <!-- twitter card tags additive with the og: tags -->
+  <meta name="twitter:card" content="summary_large_image">
+
+  <title> State - Design Kit </title>
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="http://localhost:4000/css/main.css">
+
+</head>
+
+<body  class="w-100 modules">
+
+  <header class="fixed top-0 w-100 z-5 site-header ">
+  <div class="ph3 ph4-ns wrapper">
+    <a class="site-title" href="http://localhost:4000">
+      <img src="http://localhost:4000/media/assets/rs-dk-logo.svg" alt="Design Kit">
+    </a>
+    <nav class="site-nav dn db-ns">
+      <div>
+        
+          
+        
+          
+          <a class="page-link page-link-bits f5" href="http://localhost:4000/bits/">Bits</a>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+          <a class="page-link page-link-modules f5" href="http://localhost:4000/modules/">Modules</a>
+          
+        
+          
+          <a class="page-link page-link-patterns f5" href="http://localhost:4000/patterns/">Patterns</a>
+          
+        
+          
+        
+      </div>
+    </nav>
+  </div>
+</header>
+
+
+  <div class="page-content pv5">
+    <div class="ph3 ph4-ns wrapper">
+      <div class="cf">
+        <div id="pinned" class="fl w-20">
+  <ul class="mv1 f6">
+    <li class="pv1">
+      <a class="db" href="http://localhost:4000/modules/">Intro</a>
+    </li>
+    
+    
+      <li class="pv1">
+        <a class="db" href="http://localhost:4000/modules/global/">Global</a>
+      </li>
+    
+      <li class="pv1">
+        <a class="db" href="http://localhost:4000/modules/colors/">Colors</a>
+      </li>
+    
+      <li class="pv1">
+        <a class="db" href="http://localhost:4000/modules/typography/">Typography</a>
+      </li>
+    
+      <li class="pv1">
+        <a class="db" href="http://localhost:4000/modules/links/">Links</a>
+      </li>
+    
+      <li class="pv1">
+        <a class="db" href="http://localhost:4000/modules/card/">Card</a>
+      </li>
+    
+      <li class="pv1">
+        <a class="db" href="http://localhost:4000/modules/buttons/">Buttons</a>
+      </li>
+    
+      <li class="pv1">
+        <a class="db" href="http://localhost:4000/modules/header/">Header</a>
+      </li>
+    
+      <li class="pv1">
+        <a class="db" href="http://localhost:4000/modules/forms/">Forms</a>
+      </li>
+    
+      <li class="pv1">
+        <a class="db" href="http://localhost:4000/modules/dropdowns/">Dropdowns</a>
+      </li>
+    
+      <li class="pv1">
+        <a class="db" href="http://localhost:4000/modules/highlight/">Highlight</a>
+      </li>
+    
+      <li class="pv1">
+        <a class="db" href="http://localhost:4000/modules/states/">State</a>
+      </li>
+    
+      <li class="pv1">
+        <a class="db" href="http://localhost:4000/modules/badge/">Badge</a>
+      </li>
+    
+      <li class="pv1">
+        <a class="db" href="http://localhost:4000/modules/sets/">Sets</a>
+      </li>
+    
+      <li class="pv1">
+        <a class="db" href="http://localhost:4000/modules/spinners/">Spinners</a>
+      </li>
+    
+      <li class="pv1">
+        <a class="db" href="http://localhost:4000/modules/grid/">Grid</a>
+      </li>
+    
+      <li class="pv1">
+        <a class="db" href="http://localhost:4000/modules/animation/">Animation</a>
+      </li>
+    
+      <li class="pv1">
+        <a class="db" href="http://localhost:4000/modules/utilities/">Utilities</a>
+      </li>
+    
+      <li class="pv1">
+        <a class="db" href="http://localhost:4000/modules/tooltips/">Tooltips</a>
+      </li>
+    
+      <li class="pv1">
+        <a class="db" href="http://localhost:4000/modules/layout/">Layout</a>
+      </li>
+    
+  </ul>
+</div>
+
+<article class="fl w-100 w-80-ns animate-fade">
+  <div>
+    <header>
+      <h1 class="page-heading">State</h1>
+      <p class="f5 mt0 mb4 measure">Sass module for css states and labels</p>
+    </header>
+    <div class="mt3 mb4">
+      <div class="w-100 mb4 bb bw2 b--black-05">
+        <section class="flex flex-wrap w-80 mt0 pb3 meta f6">
+          <div class="flex flex-row w-50 pv1">
+            <div class="flex w-25">Source</div>
+            <div class="flex flex-auto">
+              <a class="dim link" href="https://github.com/rightscale-design/designkit-state" target="_blank">Github</a>
+            </div>
+          </div>
+          <div class="flex flex-row w-50 pv1">
+            <div class="flex w-25">NPM</div>
+            <div class="flex flex-auto">
+              <a class="dim link" href="https://www.npmjs.com/package/designkit-state" target="_blank">designkit-state</a>
+            </div>
+          </div>
+          <div class="flex flex-row w-50 pv1">
+            <div class="flex w-25">Version</div>
+            <div class="flex flex-auto">
+              <a class="dim link" href="https://github.com/rightscale-design/designkit-state/releases" target="_blank">0.0.4</a>
+            </div>
+          </div>
+          <div class="flex flex-row w-50 pv1">
+            <div class="flex w-25">Updated</div>
+            <div class="flex flex-auto">5/20/2016</div>
+          </div>
+        </section>
+      </div>
+      <div class="markdown-body">
+        <h2 id="install">Install</h2>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>npm <span class="nb">install </span>designkit-state <span class="nt">--save</span>
+</code></pre></div></div>
+<h2 id="dependencies">Dependencies</h2>
+
+<ul>
+  
+    <li><a href="/modules/colors/">Colors</a></li>
+  
+</ul>
+
+<h2 id="examples">Examples</h2>
+
+<h3 id="basic-usage">Basic Usage</h3>
+
+<p>State indicators inform users of the current status of a particular item. Currently DK includes default, success and failed indicators.</p>
+
+<p><strong>HTML</strong></p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"state"</span><span class="nt">&gt;</span>Default<span class="nt">&lt;/span&gt;</span>
+<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"state state-success"</span><span class="nt">&gt;</span>Success<span class="nt">&lt;/span&gt;</span>
+<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"state state-failed"</span><span class="nt">&gt;</span>Failed<span class="nt">&lt;/span&gt;</span>
+</code></pre></div></div>
+
+<h2 id="css">CSS</h2>
+
+<div class="snippet">
+  <pre id="css_contents" class="highlighter-rouge snippet-css"><code class="css"></code></pre>
+</div>
+
+      </div>
+    </div>
+  </div>
+</article>
+
+      </div>
+    </div>
+  </div>
+
+  <footer class="site-footer mt5 mb4">
+  <div class="ph3 ph4-ns wrapper">
+    <p><strong>v2.0.2</strong> / <a class="dim link" href="https://github.com/rightscale/design-kit">github.com/rightscale/design-kit</a></p>
+    <p>&copy 2024 RightScale, Inc.</p>
+  </div>
+</footer>
+
+
+  <!-- Scripts -->
+  <script src="http://localhost:4000/js/vendor/jquery-2.2.3.min.js"></script>
+  <script src="http://localhost:4000/js/vendor/anchor.min.js"></script>
+  <script src="http://localhost:4000/js/vendor/scroll.min.js"></script>
+  <script src="http://localhost:4000/js/vendor/sticky-kit.min.js"></script>
+  <script src="http://localhost:4000/js/vendor/clipboard.min.js"></script>
+  <script src="http://localhost:4000/js/vendor/highlight.pack.js"></script>
+
+  <!-- Local scripts -->
+  <script src="http://localhost:4000/js/anchor.js"></script>
+  <script src="http://localhost:4000/js/sticky-kit.js"></script>
+  <script src="http://localhost:4000/js/snippet.js"></script>
+  <script type="text/javascript">
+    var csslink = "https://raw.githubusercontent.com/rightscale-design/designkit-state/master/css/designkit-state.css";
+  </script>
+  <script src="http://localhost:4000/js/modules.js"></script>
+
+</body>
+
+</html>
